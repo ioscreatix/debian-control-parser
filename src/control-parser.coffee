@@ -12,7 +12,7 @@ module.exports = ControlDataParser = (stream) ->
 	splitter.encoding = "utf8"
 
 	currentLine = 0
-	emitter = new process.EventEmitter
+	emitter = require('events')
 	stanza = {}
 	currentField = null
 	isMultiLine = false
