@@ -1,6 +1,6 @@
 {
   "name": "debian-control-parser",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Debian control data parser.",
   "main": "lib/control-parser.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "http://github.com/samcday/node-debian-control-parser.git"
+    "url": "http://github.com/ioscreatix/node-debian-control-parser.git"
   },
   "keywords": [
     "debian",
